@@ -1,2 +1,35 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#imagemSiri{
+	position: absolute; 
+	left: 34px; /* posiciona a 90px para a esquerda */ 
+	top: 7px; /* posiciona a 70px para baixo */
+}
+
+#recipiente{
+	background: linear-gradient(to bottom, #f6f1b2, #4599b2);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 810px;
+
+}
+#cardapioTexto{
+	transform: rotate(270deg);
+}
+#conteudo{
+	display: inline-block;
+}
+
+#lateral{
+	display: inline-block;
+	width: 154px;
+	writing-mode: sideways-rl;
+}
+
+#cardapio{
+	display: inline-block;
+	width: 649px;
+	border: 1px solid black;
+}
+
