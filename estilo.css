@@ -1,10 +1,34 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
 
+body{
+	margin-top:0px;
+}
+
+#cabecalho{
+	padding: 10px;
+	position:relative;
+	left: 154px;
+	margin-top:0px;
+	width: 646px;
+	
+}
+#apagado{
+	display:none;
+}
+header h1{
+	font-family: 'Ravie';
+	margin-top:0px;
+	font-size: 36px;
+	color: #e90c0c;
+}
+header h2{
+	font-family: 'Trebuchet MS';
+}
 #imagemSiri{
 	position: absolute; 
-	left: 34px; /* posiciona a 90px para a esquerda */ 
-	top: 7px; /* posiciona a 70px para baixo */
+	left: -10px; 
+	top: 7px; 
 }
 
 #recipiente{
@@ -12,24 +36,30 @@
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	width: 810px;
+}
 
-}
-#cardapioTexto{
-	transform: rotate(270deg);
-}
 #conteudo{
 	display: inline-block;
 }
 
-#lateral{
+aside{
 	display: inline-block;
 	width: 154px;
 	writing-mode: sideways-rl;
 }
 
-#cardapio{
+aside h2{
+	font-family: 'Verdana';
+	font-size: 48px;
+	color: #333;
+	transform: rotate(270deg);
+}
+
+article{
 	display: inline-block;
-	width: 649px;
+	width: 639px;
 	border: 1px solid black;
+	padding: 10px;
+	padding-right:0px;
 }
 
